@@ -1,0 +1,13 @@
+ 1998  source ../venv/virtualenviroments/v0/bin/activate
+ 1999  pip list
+ 2000  pip install pylint
+ 2001  pip list
+ 2002  pip freeze > ../venv/requirments/v0-requirments.txt
+ 2003  cat ../venv/requirments/v0-requirments.txt 
+ 2004  deactivate 
+ 2005  pylint c8m1l2-pylint/sample1.py
+ 2006  source ../venv/virtualenviroments/v0/bin/activate
+ 2007  pylint c8m1l2-pylint/sample1.py
+ 2008  pylint c8m1l2-pylint/sample2.py
+ 2009  history
+
